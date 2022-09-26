@@ -1,0 +1,257 @@
+@font-face {
+  font-family: Fellix-Regular;
+  src: url(assets/Fellix-Regular.ttf);
+}
+@font-face {
+  font-family: Fellix-Medium;
+  src: url(assets/Fellix-Medium.ttf);
+}
+
+@font-face {
+  font-family: Fellix-Bold;
+  src: url(assets/Fellix-Bold.ttf);
+}
+
+
+
+html,body{
+  margin:0;
+  padding: 0;
+    font-family: "Fellix";
+    /* background-color: #FBF8F5; */
+}
+
+.header{
+  z-index: 2;
+    top:0;
+    left:0;
+  /* position: sticky !important; */
+    /* position:-webkit-sticky !important; */
+position: fixed;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  padding-top: 25px;
+background-color: white;
+/* background-color: #FBF8F5; */
+width:95vw;
+font-size: 15px;
+}
+
+.logo-band{
+  margin-bottom:25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+
+}
+
+.logo{
+  width:145px;
+  height:41px;
+  background-image: url(assets/Noora_Logo_Color.png);
+  background-size: contain;
+}
+
+.translation{
+  color:#383838;
+  width: 45px;
+  height: 45px;
+/* background-color: red; */
+position:relative;
+top:0;
+right:0;
+}
+
+.english{
+  color:#FBF8F5;
+  background-color:#383838;
+  top:18px;
+  right:18px;
+  position: absolute;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 25px;
+  height: 25px;
+  border:1px solid #383838;
+  border-radius: 5px;
+}
+
+.hindi{
+  top:0;
+  right:0;
+  position: absolute;
+  cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 25px;
+    height: 25px;
+    border:1px solid #383838;
+    border-radius: 5px;
+
+}
+
+.filter-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content:center;
+}
+
+.term-button{
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width:300px;
+  height:50px;
+  border: 1px solid #DD3E77;
+  border-radius: 100px;
+  background-color: #DD3E77;
+  color: #FBF8F5;
+}
+
+.acronym-button{
+  color:#DD3E77;
+  cursor:pointer;
+    border-radius: 100px;
+  border: 1px solid #DD3E77;
+  display: flex;
+  align-items: center;
+justify-content:center;
+  width:300px;
+  height:50px;
+
+}
+
+.filter-alphabet{
+text-decoration: underline;
+  color:#383838;
+  height:75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content:center;
+}
+
+
+.atof{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.filter-result{
+  font-size: 20px;
+  position: relative;
+  top:222px;
+  left:0;
+  z-index: 1;
+}
+/* .background{
+  position: relative;
+  top:222px;
+  left:0;
+  z-index: 0;
+} */
+.terms{
+  /* background-color: red; */
+position: absolute;
+top:0;
+left:0;
+background-image: url(assets/term-shape.png);
+background-size: contain;
+background-position: right;
+background-repeat: no-repeat;
+}
+
+.acronyms{
+  background-image: url(assets/acronym-shape.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+
+.line{
+  margin-left:2.5vw;
+  margin-right: 2.5vw;
+  width: 95vw;
+  border-bottom: 1px solid #383838;
+}
+
+
+ul.menu_main_menu li ul.submenu { display:none; }
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color:#383838;
+}
+
+
+.row{
+cursor: pointer;
+
+  margin-left:2.5vw;
+  margin-right: 2.5vw;
+  width: 95vw;
+  border-bottom: 1px solid #383838;
+    /* background-color: purple; */
+}
+
+.row:hover{
+  background-color: #FBF8F5;
+
+}
+
+/* .title:hover{
+
+  font-weight: normal;
+} */
+.title{
+  padding-top:15px;
+  padding-bottom: 15px;
+  width: 98%;
+  display: block;
+  font-weight:  Bold;
+padding-left:15px;
+  /* background-color: yellow; */
+}
+
+.definition{
+  font-size: 18px;
+  padding-left:75px;
+  padding-bottom:15px;
+  width:580px;
+line-height: 1.5;
+  /* background-color: green; */
+}
+
+.green{
+  background-color: green;
+  padding-left:75px;
+}
+
+@media (max-width: 700px) {
+
+.term-button,
+  .acronym-button{
+    width:180px;
+  }
+
+.filter-result{
+  font-size:16px;
+}
+
+}

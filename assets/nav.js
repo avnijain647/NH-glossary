@@ -1,31 +1,95 @@
 
 $(document).ready(function() {
-
+$('.acronyms-bg').hide()
 $('.acronyms').hide()
+$('.filter-acronyms').hide()
+  // $('.filter-terms a').css('text-decoraton', 'underline')
+   var windowWidth = $(window).width()
+  if(windowWidth<750){
+    $('.filter-main a.term-button').html('Terms')
+    $('.filter-main a.acronym-button').html('Acronyms')
+  }
+  else{
+      $('.filter-main a.term-button').html('Terms & Terminologies')
+      $('.filter-main a.acronym-button').html('Acronyms & Abbreviations')
+  }
 })
 
 
 $("ul.menu_main_menu li a").on('click', function() {
 $('ul.menu_main_menu li ul.submenu').hide();
+
+
     var submenu = $(this).next('.submenu');
-      // var menutitle = $(this).('ul.menu_main_menu li a');
+
         if($('.thisul').find('.submenu') != $(this)){
         $('.thisul').find('.submenu').hide();
     }
 
     submenu.toggle();
-  // console.log(menutitle)
+
 });
 
 
 $('.filter-main a').on('click', function() {
   var filter = $(this).attr('data-filter')
-  console.log(filter)
   $('.terms').hide()
   $('.acronyms').hide()
+  $('.terms-bg').hide()
+  $('.acronyms-bg').hide()
+  $('.filter-terms').hide()
+  $('.filter-acronyms').hide()
   $(filter).show()
-  //   $('.filter-main a').removeClass('selected')
-  // $(this).addClass('selected')
+
+
+// $('.filter-main a').css('color', 'blue')
+
+
+$('.filter-main a').css('font-family', 'Fellix-Regular')
+$('.filter-main a').css('color', '#DD3E77')
+$('.filter-main a').css('background-color', 'white')
+$(this).css('color', '#FBF8F5')
+$(this).css('background-color', '#DD3E77')
+$(this).css('font-family', 'Fellix-Medium')
+console.log(this)
+$(filter).scrollTop(position)
+
+
+  return false
+})
+
+
+$('.filter-terms a').on('click', function() {
+  var filter2 = $(this).attr('data-filter')
+
+  $('.row').hide()
+
+
+  $(filter2).show()
+
+  $('.filter-terms a').css('font-weight', 'Normal')
+  $('.filter-terms a').css('text-decoraton', 'underline')
+  $(this).css('font-weight', 'Bold')
+  $(this).css('text-decoraton', 'none')
+
+
+  return false
+})
+
+
+$('.filter-acronyms a').on('click', function() {
+  var filter3 = $(this).attr('data-filter')
+
+  $('.row').hide()
+
+
+  $(filter3).show()
+
+  $('.filter-acronyms a').css('font-weight', 'Normal')
+  $('.filter-acronyms a').css('text-decoraton', 'underline')
+  $(this).css('font-weight', 'Bold')
+  $(this).css('text-decoraton', 'none')
+
 
   return false
 })

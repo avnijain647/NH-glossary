@@ -8,50 +8,66 @@
 
   <div class="logo-band">
   <div class="logo"></div>
-<div class="translation">
+<div class="request">
+  <!-- <div class="request-icon"></div> -->
+<div><a href="#/">Request to add new terms</a></div></div>
+<!-- <div class="translation">
 <div class="english"><div>A</div></div>
 <div class="hindi"><div>अ</div></div>
-</div>
+</div> -->
 </div>
 
 <div class="filter-main">
-<a href="#" class="term-button" data-filter=".terms"><div>Terms</div></a>
+<a href="#" class="term-button" data-filter=".terms, .terms-bg, .filter-terms"><div>Terms & Terminologies</div></a>
 <div style="width:30px"></div>
-<a href="#" class="acronym-button" data-filter=".acronyms"><div>Acronyms</div></a>
+<a href="#" class="acronym-button" data-filter=".acronyms, .acronyms-bg, .filter-acronyms"><div>Acronyms & Abbreviations</div></a>
 </div>
 
 
-<div class="filter-alphabet">
-<div class="atof">A-F</div>
+<div class="filter-terms">
+<a href="#" data-filter=".all" class="all-filter">All</a>
+  <div style="width:30px"></div>
+<a href="#" data-filter=".atof">A-F</a>
 <div style="width:30px"></div>
-<div class="gtol">G-L</div>
+<a href="#" data-filter=".gtol">G-L</a>
 <div style="width:30px"></div>
-<div class="mtor">M-R</div>
+<a href="#" data-filter=".mtor">M-R</a>
 <div style="width:30px"></div>
-<div class="stoz">S-Z</div>
+<a href="#" data-filter=".stoz">S-Z</a>
 </div>
 
+<div class="filter-acronyms">
+  <div><a href="#" data-filter=".all" class="all-filter">All</a></div>
+  <div style="width:30px"></div>
+<div><a href="#" data-filter=".terminology" class="atof">Terminologies</a></div>
+<div style="width:30px"></div>
+<div><a href="#" data-filter=".miscellaneous" class="gtol">Miscellaneous</a></div>
+</div>
 
 
 </div>
 
 <div class="filter-result">
 
+<div class="line"></div>
+<div class="terms-bg"></div>
 <div class="terms">
-  <div class="line"></div>
+
 
   <ul class="menu_main_menu">
 
-   	<li class="row"><a id="aarogya-seva" href="#/" class="title">Aarogya Seva</a>
+   	<li class="row all atof"><a id="aarogya-seva" href="#/" class="title ">Aarogya Seva</a>
   <ul class="aarogya-seva submenu">
-   	<li><a href="#/"><div class="definition">Literally meaning ‘Healthy Service’ in Hindi, this is Noora Health’s Support
+   	<li><a href="#/"><div class="definition all atof">
+      Literally meaning ‘Healthy Service’ in Hindi, this is Noora Health’s Support
       WhatsApp Line. It allows for digital follow-ups and health support for families after they leave the hospital.
       The service sends out regular messages about healthy behaviors, and also connects families with medical
-      practitioners for one-on-one communication.</div></a></li>
+      practitioners for one-on-one communication.
+    </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a href="#/"  class="title">ASHA - Accredited Social Health Activist </a>
+  <li class="row all atof"><a href="#/"  class="title ">ASHA - Accredited Social Health Activist </a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">ASHAs are female community health workers, who are instituted by the Ministry of Health and
     Family Welfare, Government of India under the National Rural Health Mission. They are selected from a particular
@@ -59,25 +75,25 @@
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">Baseline Hospital </a>
+  <li class="row all"><a  href="#/"  class="title ">Baseline Hospital </a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">This refers to one of the 28 hospitals selected to be part of the neonatal evaluation done in partnership with Ariadne Labs. These hospitals were selected randomly throughout Punjab, Maharashtra, Karnataka, and Madhya Pradesh.</div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#"  class="title">CCP - Care Companion Program</a>
+  <li class="row all"><a  href="#"  class="title ">CCP - Care Companion Program</a>
   <ul class="submenu">
   <li><a href="#"><div class="definition">Noora Health’s primary offering, which provides high-impact medical skills training to patients and family members through the duration of their hospital stay, to improve recovery at home and facilitate lasting health behavior change. The CCP is delivered in 159 facilities in India, in collaboration with local governments and partners. It covers four program areas - Maternal and Newborn Care, Oncology Care, Cardiac Care, and General Medical and Surgical Care.</div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">Care Companion App</a>
+  <li class="row all"><a  href="#/"  class="title">Care Companion App</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">This platform connects Noora Health’s trainers, Program Managers, and nurses to increase engagement and also streamline logistics such as record collection of sessions - patient attendance, topics covered, etc.  </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">COVID CCP (or CCP for COVID-19 or COVID-19 Teletraining)</a>
+  <li class="row all"><a  href="#/"  class="title ">COVID CCP (or CCP for COVID-19 or COVID-19 Teletraining)</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">Noora Health’s teletraining service, which provides empathetic, comprehensive, and proactive remote training and skill-building for families caring for COVID-19 infected patients in order to support recovery at home. Noora’s content and program design has been guided by human-centered design principles.
 
@@ -87,21 +103,21 @@ This program will not provide telemedicine, i.e. diagnosis or prescriptions for 
   </li>
 
 
-  <li class="row"><a  href="#/"  class="title">DGHS Bangladesh - Directorate General of Health Services, Bangladesh</a>
+  <li class="row all"><a  href="#/"  class="title ">DGHS Bangladesh - Directorate General of Health Services, Bangladesh</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">The agency of the Ministry of Health and Family Welfare of Bangladesh responsible for health services in the country.
   </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">HWC - Health and Wellness Center</a>
+  <li class="row all"><a  href="#/"  class="title ">HWC - Health and Wellness Center</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">These are centers that the Ministry of Health and Family Welfare, India envisages for the delivery of free primary health care services at the community level. They will cover not only maternal and child health care services, but also include care for non -communicable diseases, palliative and rehabilitative care, oral, eye, and ENT care, mental health and first-level care for emergencies and trauma (including free essential drugs and diagnostic services).
   </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">IVRS - Interactive Voice Response System </a>
+  <li class="row all"><a  href="#/"  class="title ">IVRS - Interactive Voice Response System </a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">A telecommunication system that manages multiple incoming phone calls at once. Listeners can choose between different options and hear pre-recorded messages. For example, “press 1 to learn more about our mutual fund schemes.” At Noora, we use this system for our COVID CCP phone training service.
   </div></a></li>
@@ -109,21 +125,21 @@ This program will not provide telemedicine, i.e. diagnosis or prescriptions for 
   </li>
 
 
-  <li class="row"><a  href="#/"  class="title">MoHFW - Ministry of Health and Family Welfare, Government of India</a>
+  <li class="row all"><a  href="#/"  class="title ">MoHFW - Ministry of Health and Family Welfare, Government of India</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">The government ministry that is responsible for health policy in India.
   </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">NHA - National Health Authority</a>
+  <li class="row all"><a  href="#/"  class="title ">NHA - National Health Authority</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">The apex body responsible for implementing India’s flagship health insurance scheme, the Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY) at the national level.
   </div></a></li>
   </ul>
   </li>
 
-  <li class="row"><a  href="#/"  class="title">NHM - National Health Mission</a>
+  <li class="row all"><a  href="#/"  class="title ">NHM - National Health Mission</a>
   <ul class="submenu">
   <li><a href="#/"><div class="definition">Launched in 2013 by the Government of India, the NHM was set up to help achieve universal access to equitable, affordable & quality health care services in India. Its main programmatic components include health system strengthening in rural and urban areas, focusing on Reproductive-Maternal-Neonatal-Child and Adolescent Health (RMNCH+A), and Communicable and Non-Communicable Diseases.
   </div></a></li>
@@ -135,8 +151,29 @@ This program will not provide telemedicine, i.e. diagnosis or prescriptions for 
 
 </div>
 
+<div class="acronyms-bg"></div>
+<div class="acronyms">
+<ul class="menu_main_menu">
 
-<div class="acronyms">dbvsdklvjbsdkjvnskvjnksvjn</div>
+  <li class="row"><a id="aarogya-seva" href="#/" class="title">General Terminology</a>
+  <ul class="aarogya-seva submenu">
+  <li><a href="#/"><div class="definition">
+  <div> <b>CCP</b> - Care Companion Program</div>
+<div>TOT - Training of Trainers</div>
+<div>HCD - Human-Centred Design</div>
+<div>REI - Research Evaluation Impact</div>
+<div>GIN - Growth Implementation & Networking</div>
+<div>KMC - Kangaroo Mother Care</div>
+<div>CC - Care Companion</div>
+<div>DCCS -  Digital Care Companion Service</div>
+</div></a></li>
+  </ul>
+  </li>
+
+</ul>
+</div>
+
+
 </div>
 
 </body>

@@ -29,8 +29,8 @@ html,body{
   /* position: sticky !important; */
     /* position:-webkit-sticky !important; */
 position: fixed;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   padding-top: 25px;
 background-color: white;
 /* background-color: #FBF8F5; */
@@ -336,5 +336,10 @@ line-height: 1.5;
   height:50px;
   background-image: url(assets/logomark.png);
 }
-
+.definition{
+  width:80vw;
+    font-size:16px;
+  /* background-color: red; */
+  padding-left: 30px;
+}
 }

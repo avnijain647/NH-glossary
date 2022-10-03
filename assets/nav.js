@@ -5,9 +5,10 @@ $('.acronyms').hide()
 $('.filter-acronyms').hide()
   // $('.filter-terms a').css('text-decoraton', 'underline')
    var windowWidth = $(window).width()
-  if(windowWidth<750){
+  if(windowWidth<1200){
     $('.filter-main a.term-button').html('Terms')
     $('.filter-main a.acronym-button').html('Acronyms')
+      $('.filter-main a.acronym-button').html('Acronyms')
   }
   else{
       $('.filter-main a.term-button').html('Terms & Terminologies')
@@ -72,7 +73,7 @@ $('.filter-terms a').on('click', function() {
   $(this).css('font-weight', 'Bold')
   $(this).css('text-decoraton', 'none')
 
-
+$(filter).scrollTop(position)
   return false
 })
 
@@ -80,7 +81,7 @@ $('.filter-terms a').on('click', function() {
 $('.filter-acronyms a').on('click', function() {
   var filter3 = $(this).attr('data-filter')
 
-  $('.row').hide()
+  $('.row2').hide()
 
 
   $(filter3).show()
@@ -90,6 +91,6 @@ $('.filter-acronyms a').on('click', function() {
   $(this).css('font-weight', 'Bold')
   $(this).css('text-decoraton', 'none')
 
-
+$(filter).scrollTop(position)
   return false
 })

@@ -56,6 +56,13 @@ font-size: 15px;
   background-image: url(assets/Noora_Logo_Color.png);
   background-size: contain;
 }
+.actions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* width:430px; */
+}
 .request a{
     color:#383838;
 }
@@ -63,7 +70,7 @@ font-size: 15px;
   /* text-align: right; */
   text-decoration: underline;
   color:#383838;
-  width: 215px;
+  /* width: 350px; */
   height: 45px;
 /* background-color: red; */
 display: flex;
@@ -89,7 +96,7 @@ justify-content:flex-end ;
   color:#383838;
   width: 45px;
   height: 45px;
-/* background-color: red; */
+/* background-color: green; */
 position:relative;
 top:0;
 right:0;
@@ -226,14 +233,12 @@ left:0;
   z-index:0;
   width: 100%;
   height:70vh;
-  /* background-color: red; */
 position: absolute;
-top:1;
+top:0;
 left:0;
 background-image: url(assets/term-shape.png);
-
 background-size: 500px 390px;
-background-position: right;
+background-position: bottom right;
 background-repeat: no-repeat;
 }
 
@@ -243,11 +248,11 @@ background-repeat: no-repeat;
   height:70vh;
   /* background-color: red; */
 position: absolute;
-top:1;
+top:0;
 left:0;
 background-image: url(assets/acronym-shape.png);
-background-size: contain;
-background-position: right;
+background-size:400px 400px;
+background-position: bottom right;
 background-repeat: no-repeat;
 }
 
@@ -279,7 +284,7 @@ ul a{
   color:#383838;
 }
 
-
+.row2,
 .row{
 cursor: pointer;
 
@@ -289,10 +294,9 @@ cursor: pointer;
   border-bottom: 1px solid #383838;
     /* background-color: purple; */
 }
-
+.row2:hover,
 .row:hover{
   background-color: #FBF8F5;
-
 }
 
 
@@ -320,26 +324,117 @@ line-height: 1.5;
   padding-left:75px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
 
+.header{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  width:90%;
+  font-size: 21px;
+}
+.logo-band{
+  margin-bottom:40px;
+
+}
+.request{
+  font-size: 18px;
+}
+.row2:hover,
+.row:hover{
+  background-color: rgba(250, 250, 250, 0);
+  }
 .term-button,
   .acronym-button{
-    width:200px;
+    width:360px;
   }
-
+.filter-terms,
+.filter-acronyms{
+  height: 80px;
+}
 .filter-result{
-  top:229px;
-  font-size:16px;
+  top:325px;
+  font-size:24px;
 }
 .logo{
-  width: 50px;
-  height:50px;
+  width: 85px;
+  height:85px;
   background-image: url(assets/logomark.png);
 }
-.definition{
-  width:80vw;
-    font-size:16px;
-  /* background-color: red; */
-  padding-left: 30px;
+
+/*
+.terms-bg{
+  background-size: 300px 230px;
 }
+.acronyms-bg{
+  background-size: 270px 270px;
+} */
+
+
+.line{
+  margin-left:5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.row2,
+.row{
+cursor: pointer;
+  margin-left:5%;
+  margin-right: 5%;
+  width: 90%;
+  border-bottom: 1px solid #383838;
+}
+
+.title{
+
+  padding-top:25px;
+  padding-bottom: 25px;
+  width: 98%;
+  display: block;
+  font-family:Fellix-Bold;
+padding-left:20px;
+}
+
+.definition{
+  font-size: 24px;
+  padding-left:60px;
+  padding-bottom:25px;
+  width:80vw;
+line-height: 1.5;
+  /* background-color: green; */
+}
+
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1200px) {
+  .term-button,
+    .acronym-button{
+        height:75px;
+    }
+  /* .logo{
+    width: 125px;
+    height:125px;
+    background-image: url(assets/logomark.png);
+  } */
+/* .header{
+  font-size:27px;
+}
+  .definition{
+    font-size: 32px;
+    padding-left:60px;
+    padding-bottom:27px;
+    width:80vw;
+  }
+  .filter-result{
+    top:420px;
+    font-size:32px;
+  }
+  .title{
+    padding-top:27px;
+    padding-bottom: 27px;
+
+  } */
+
+
 }

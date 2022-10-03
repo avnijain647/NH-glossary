@@ -67,6 +67,7 @@ font-size: 15px;
     color:#383838;
 }
 .request{
+    font-family: Fellix-Regular;
   /* text-align: right; */
   text-decoration: underline;
   color:#383838;
@@ -93,6 +94,7 @@ justify-content:flex-end ;
   background-color: #383838;
 }
 .translation{
+    font-family: Fellix-Regular;
   color:#383838;
   width: 45px;
   height: 45px;
@@ -168,6 +170,7 @@ justify-content:center;
 }
 
 .acronym-button{
+  font-family: Fellix-Regular;
   color:#DD3E77;
   background-color: white;
   cursor:pointer;

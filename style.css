@@ -189,8 +189,8 @@ justify-content:center;
 
 .filter-acronyms,
 .filter-terms{
+/* font-family: "Fellix"; */
 font-family: "Fellix";
-
   height:75px;
   display: flex;
   flex-direction: row;
@@ -202,7 +202,7 @@ justify-content:center;
  .filter-terms a{
    color:#383838;
 text-decoration: none;
-  font-weight:  normal;
+  /* font-weight:  normal; */
 }
 
 .filter-acronyms .all-filter,

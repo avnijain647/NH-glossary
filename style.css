@@ -296,7 +296,7 @@ cursor: pointer;
 }
 .row2:hover,
 .row:hover{
-  background-color: #FBF8F5;
+  /* background-color: #FBF8F5; */
 }
 
 

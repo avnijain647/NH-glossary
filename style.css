@@ -357,12 +357,12 @@ line-height: 1.5;
   height: 80px;
 }
 .filter-result{
-  top:325px;
-  font-size:24px;
+  top:300px;
+  font-size:21px;
 }
 .logo{
-  width: 85px;
-  height:85px;
+  width: 60px;
+  height:60px;
   background-image: url(assets/logomark.png);
 }
 
@@ -392,8 +392,8 @@ cursor: pointer;
 
 .title{
 
-  padding-top:25px;
-  padding-bottom: 25px;
+  padding-top:20px;
+  padding-bottom: 20px;
   width: 98%;
   display: block;
   font-family:Fellix-Bold;
@@ -401,9 +401,9 @@ padding-left:20px;
 }
 
 .definition{
-  font-size: 24px;
+  font-size: 21px;
   padding-left:45px;
-  padding-bottom:25px;
+  padding-bottom:20px;
   width:78vw;
 line-height: 1.5;
   /* background-color: green; */

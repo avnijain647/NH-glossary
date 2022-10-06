@@ -14,7 +14,10 @@ $('.filter-acronyms').hide()
       $('.filter-main a.term-button').html('Terms & Terminologies')
       $('.filter-main a.acronym-button').html('Acronyms & Abbreviations')
   }
+
+
 })
+
 
 
 $("ul.menu_main_menu li a").on('click', function() {
@@ -69,9 +72,9 @@ $('.filter-terms a').on('click', function() {
   $(filter2).show()
 
   $('.filter-terms a').css('font-family', 'Fellix-Regular')
-  // $('.filter-terms a').css('text-decoraton', 'underline')
+
   $(this).css('font-family', 'Fellix-Bold')
-  // $(this).css('text-decoraton', 'none')
+
 
 $(filter).scrollTop(position)
   return false

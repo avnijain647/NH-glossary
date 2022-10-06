@@ -95,7 +95,9 @@ justify-content:flex-end ;
   background-color: #383838;
   background-repeat: no-repeat;
 }
-
+.request-icon:hover{
+    background-color: #00956e;
+}
 .dialogue-box{
   display: none;
   line-height: 1.4;
@@ -207,7 +209,11 @@ justify-content:center;
   color: #FBF8F5;
   background-color: #DD3E77;
 }
-
+/* .term-button:hover,
+.acronym-bitton:hover{
+  border: 1px solid #00956e;
+    background-color:#00956e;
+} */
 .filter-acronyms,
 .filter-terms{
 /* font-family: "Fellix"; */
@@ -442,6 +448,8 @@ padding-left:20px;
 line-height: 1.5;
   /* background-color: green; */
 }
+
+
 
 }
 

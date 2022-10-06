@@ -94,3 +94,15 @@ $('.filter-acronyms a').on('click', function() {
 $(filter).scrollTop(position)
   return false
 })
+
+$('.request').on('click', function() {
+  if ($('.dialogue-box').is(':visible')){
+    $('.dialogue-box').removeClass('show')
+
+  } else {
+    $('.dialogue-box').addClass('show')
+  }
+    return false
+
+
+})

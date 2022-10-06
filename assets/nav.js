@@ -68,10 +68,10 @@ $('.filter-terms a').on('click', function() {
 
   $(filter2).show()
 
-  $('.filter-terms a').css('font-weight', 'Normal')
-  $('.filter-terms a').css('text-decoraton', 'underline')
-  $(this).css('font-weight', 'Bold')
-  $(this).css('text-decoraton', 'none')
+  $('.filter-terms a').css('font-family', 'Fellix-Regular')
+  // $('.filter-terms a').css('text-decoraton', 'underline')
+  $(this).css('font-family', 'Fellix-Bold')
+  // $(this).css('text-decoraton', 'none')
 
 $(filter).scrollTop(position)
   return false
@@ -86,10 +86,10 @@ $('.filter-acronyms a').on('click', function() {
 
   $(filter3).show()
 
-  $('.filter-acronyms a').css('font-weight', 'Normal')
-  $('.filter-acronyms a').css('text-decoraton', 'underline')
-  $(this).css('font-weight', 'Bold')
-  $(this).css('text-decoraton', 'none')
+  $('.filter-acronyms a').css('font-family', 'Fellix-Regular')
+  // $('.filter-acronyms a').css('text-decoraton', 'underline')
+  $(this).css('font-family', 'Fellix-Bold')
+  // $(this).css('text-decoraton', 'none')
 
 $(filter).scrollTop(position)
   return false

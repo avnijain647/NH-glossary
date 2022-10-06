@@ -141,6 +141,7 @@ right:0;
 }
 
 .hindi{
+  font-family: 'Noto Sans Devanagari', sans-serif;
   top:0;
   right:0;
   position: absolute;
@@ -210,7 +211,7 @@ justify-content:center;
 .filter-acronyms,
 .filter-terms{
 /* font-family: "Fellix"; */
-font-family: "Fellix";
+font-family: "Fellix-Regular";
   height:75px;
   display: flex;
   flex-direction: row;
@@ -228,7 +229,7 @@ text-decoration: none;
 .filter-acronyms .all-filter,
 .filter-terms .all-filter{
   /* text-decoration: none; */
-  font-weight: bold;
+font-family: "Fellix-Bold";
 }
 
 .filter-result{

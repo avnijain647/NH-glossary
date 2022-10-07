@@ -379,6 +379,10 @@ line-height: 1.5;
 
 @media (max-width: 1200px) {
 
+
+.width{
+  width: 20px;
+}
   .dialogue-box{
     padding:20px;
     right:18px;

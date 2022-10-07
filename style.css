@@ -11,6 +11,10 @@
   font-family: Fellix-Bold;
   src: url(assets/Fellix-Bold.ttf);
 }
+@font-face {
+  font-family: DomaineText-RegularItalic;
+  src: url(assets/DomaineText-RegularItalic.otf);
+}
 
 
 
@@ -115,11 +119,16 @@ justify-content:flex-end ;
   z-index: 4;
   background-color: #00956e;
   border-radius: 25px;
-  width:325px;
+  max-width:300px;
   top:70px;
+  /* left:25px; */
   right:90px;
   padding:25px;
   color: #FBF8F5;
+}
+
+.dialogue-box i{
+  font-family: "DomaineText-RegularItalic";
 }
 
 .show{
@@ -371,8 +380,10 @@ line-height: 1.5;
 @media (max-width: 1200px) {
 
   .dialogue-box{
+    padding:20px;
+    right:18px;
     top:80px;
-    width:290px;
+    width:250px;
   }
 
 .header{

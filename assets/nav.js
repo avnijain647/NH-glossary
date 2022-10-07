@@ -109,3 +109,25 @@ $('.request').on('click', function() {
 
 
 })
+
+
+$(document).on('scroll', function() {
+
+  var pixels = $(document).scrollTop()
+  var documentHeight = $(document).height()
+  var windowHeight = $(window).height()
+  var windowWidth = $(window).width()
+var windowWidth = $(window).width()
+// var heightvoid = 100+'vh'
+  var difference = documentHeight - windowHeight
+  var percentage = 100 * pixels / difference
+  var bardiff =  windowWidth 
+var barpercentage = percentage * bardiff/100
+
+
+
+
+  $('.bar').css('width', barpercentage  )
+
+
+ })

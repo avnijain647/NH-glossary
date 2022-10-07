@@ -22,6 +22,16 @@ html,body{
     /* background-color: #FBF8F5; */
 }
 
+.bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:0;
+  background-color: #00956e;
+  height:4px;
+  z-index: 5;
+}
+
 .header{
   z-index: 2;
     top:0;

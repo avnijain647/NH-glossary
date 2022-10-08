@@ -98,17 +98,17 @@ $(filter).scrollTop(position)
   return false
 })
 
-$('.request').on('click', function() {
-  if ($('.dialogue-box').is(':visible')){
-    $('.dialogue-box').removeClass('show')
-
-  } else {
-    $('.dialogue-box').addClass('show')
-  }
-    return false
-
-
-})
+// $('.request').on('click', function() {
+//   if ($('.dialogue-box').is(':visible')){
+//     $('.dialogue-box').removeClass('show')
+//
+//   } else {
+//     $('.dialogue-box').addClass('show')
+//   }
+//     return false
+//
+//
+// })
 
 
 $(document).on('scroll', function() {
@@ -121,7 +121,7 @@ var windowWidth = $(window).width()
 // var heightvoid = 100+'vh'
   var difference = documentHeight - windowHeight
   var percentage = 100 * pixels / difference
-  var bardiff =  windowWidth 
+  var bardiff =  windowWidth
 var barpercentage = percentage * bardiff/100
 
 

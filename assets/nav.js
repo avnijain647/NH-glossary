@@ -9,10 +9,14 @@ $('.filter-acronyms').hide()
     $('.filter-main a.term-button').html('Terms')
     $('.filter-main a.acronym-button').html('Acronyms')
       $('.filter-main a.acronym-button').html('Acronyms')
+      $('.terms-bg').hide()
+      $('.acronyms-bg').hide()
   }
   else{
       $('.filter-main a.term-button').html('Terms & Terminologies')
       $('.filter-main a.acronym-button').html('Acronyms & Abbreviations')
+      $('.terms-bg').show()
+      $('.acronyms-bg').show()
   }
 
 

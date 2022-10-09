@@ -46,8 +46,6 @@ $('.filter-main a').on('click', function() {
   $(filter).show()
 
 
-// $('.filter-main a').css('color', 'blue')
-
 
 $('.filter-main a').css('font-family', 'Fellix-Regular')
 $('.filter-main a').css('color', '#DD3E77')

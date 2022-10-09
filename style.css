@@ -291,10 +291,10 @@ left:0;
 .terms-bg{
   z-index:0;
   width: 100%;
-  height:80vh;
-position: absolute;
-top:0;
-left:0;
+  height:100%;
+position: fixed;
+bottom:0;
+right:0;
 background-image: url(assets/term-shape.png);
 background-size: 500px 390px;
 background-position: bottom right;
@@ -304,11 +304,10 @@ background-repeat: no-repeat;
 .acronyms-bg{
   z-index:0;
   width: 100%;
-  height:70vh;
-  /* background-color: red; */
-position: absolute;
-top:0;
-left:0;
+  height:100%;
+position: fixed;
+bottom:0;
+right:0;
 background-image: url(assets/acronym-shape.png);
 background-size:400px 400px;
 background-position: bottom right;
@@ -370,15 +369,17 @@ padding-left:15px;
 }
 
 .definition{
+    line-height: 1.6;
   font-family: "Fellix-Regular";
   font-size: 18px;
   padding-left:75px;
   padding-bottom:15px;
   width:580px;
-line-height: 1.5;
+/* line-height: 1.5; */
   /* background-color: green; */
 }
 .definition b{
+
   font-family: "Fellix-Bold";
   color: #37b7e6;
 }
@@ -493,7 +494,7 @@ padding-right: 20px;
   padding-left:20px;
   padding-bottom:20px;
   width:78vw;
-line-height: 1.6;
+
   /* background-color: green; */
 }
 
